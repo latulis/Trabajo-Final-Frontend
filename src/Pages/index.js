@@ -1,15 +1,16 @@
 import Chat from "./Chat/Chat";
-import Contacts from "./Contacts/Contacts";
 import DetailChat from "./DetailChat/DetailChat";
+import Contacts from "./Contacts/Contacts";
 import ContactCreate from "./ContactCreate/ContactCreate";
 import NotFound from "./404NotFound/404NotFound";
 import EditContact from "./EditContact/EditContact";
 
 export {
     Chat,
-    Contacts,
     DetailChat,
     ContactCreate,
+    Contacts,
     NotFound,
     EditContact,
+
 };
