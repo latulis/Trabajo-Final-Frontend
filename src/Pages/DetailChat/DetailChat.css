@@ -1,0 +1,159 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; }
+
+.detailChat {
+    background-color:rgb(19, 85, 85); ;
+    align-self: center;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.atrasChat {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    background-color: rgb(76, 173, 173);
+    width: 100%;
+    height: 10%;
+    align-items: center;
+}
+.atrasChat h3{
+    flex: 1;
+    text-align: center;
+    font-size: 25px;
+}
+
+.atrasChat i{
+    font-size: 30px;
+    margin-right: 10px;
+    color: black ;
+}
+
+.detailChat img {
+
+    align-self: center;
+    width: 25%;
+    height: 30%;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.detailChat h2 {
+    font-size: 50px;
+    color: beige;
+}
+
+.detailChat span {
+    color: beige;
+    font-size: 20px;
+}
+
+.eliminarContacto {
+    color: beige;
+    margin-top: 1%;
+    text-decoration: none;
+    background-color: rgb(42, 167, 209);
+    font-size: 27px;
+    width: 40%;
+    height: 7%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.editarContacto {
+    border-radius: 5px;
+    margin-top: 15%;
+    color: beige;
+    text-decoration: none;
+    background-color: rgb(42, 167, 209);
+    font-size: 27px;
+    width: 40%;
+    height: 7%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+@media screen and (max-width: 668px) ,screen and (max-height: 468px) {
+
+    .detailChat{    
+        width: 100%;
+    }
+
+    .detailChat img {
+        width: 30%;
+        height: 30%;
+    }
+
+    .detailChat h2 {
+        font-size: 30px;
+    }
+
+    .detailChat span {
+        font-size: 15px;
+    }
+
+    .eliminarContacto {
+        font-size: 20px;
+        width: 50%;
+    }
+
+    .editarContacto {
+        font-size: 20px;
+        width: 50%;
+    }
+
+    
+}
+
+@media screen  and (min-height: 1200px), screen and (max-width: 1200px) {
+
+
+    .detailChat img {
+        width: 30%;
+        height: 30%;
+    }
+
+    .detailChat h2 {
+        font-size: 50px;
+    }
+
+    .detailChat span {
+
+        font-size: 20px;
+    }
+
+    .eliminarContacto {
+        font-size: 27px;
+        width: 40%;
+    }
+
+    .editarContacto {
+        font-size: 27px;
+        width: 40%;
+    }
+    
+}
+
+
+

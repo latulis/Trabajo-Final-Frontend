@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+
+.listaEntera {
+    align-self: center;
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.headerContactList {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(19, 85, 85);
+    border: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+}
+
+.headerContactList h2 {
+    color: antiquewhite;
+    text-align: start;
+    flex: 1; 
+    margin: 0;
+    font-size: 40px;
+}
+
+.headerContactList div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.headerContactList input {
+    height: 25%;
+    font-size: 18px; /* Ajusta el tamaño del texto si es necesario */
+}
+
+.contactCreate {
+    color: antiquewhite;
+    align-self: flex-end;
+    text-decoration: none;
+    background-color: rgb(45, 153, 153);
+    text-align: center;
+    width: 30%;
+    height: auto;
+    align-items: center;
+    margin-left: 2px;
+    font-size: 18px; /* Ajusta el tamaño del texto si es necesario */
+}
+
+.contactList {
+    background-color: rgb(109, 255, 255);
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.contactChatLink {
+    color: inherit;
+    text-decoration: none;   
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 17vh;
+    border: 1px solid black;
+}
+
+.contactChatLink img {
+    width: 15%;
+    height: 90%;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.contactChatLink .contactChatInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+}
+
+.contactChatLink h3 {
+    white-space: nowrap;
+    margin: 0 0 5px 5%;
+    font-size: 30px;
+}
+
+.contactChatLink .lastMessage {
+    display: flex; 
+    align-items: center; 
+    width: 100%;
+    height: 50%; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 5px 0; 
+    color: rgba(0, 0, 0, 0.644);
+    white-space: nowrap;
+}
+
+.contactChatLink .lastDay {
+    color: black;
+    margin-left: 5%;
+    align-self: flex-end;
+    padding: 3px;
+}
+
+@media screen and (max-width: 700px) {
+    .listaEntera {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .listaEntera {
+        width: 100%;
+    }
+    .contactChatLink img {
+        width: 20%; 
+    }
+
+}
+
+@media screen and (max-height: 450px) {
+    .listaEntera {
+        width: 100%;
+    }
+    .headerContactList h2 {
+        font-size: 20px;
+    }
+    .contactChatLink h3 {
+        font-size: 20px;
+        padding-top: 3px;
+    }
+    .contactChatLink .lastMessage {
+        font-size: 10px;
+    }
+    .headerContactList input {
+        height: 40%;
+    }
+    .contactChatLink img {
+        width: 10%; 
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+    .headerContactList h2 {
+        font-size: 110px;
+    }
+    .headerContactList input {
+        font-size: 50px;
+    }
+    .contactCreate {
+        font-size: 45px;
+    }
+    .contactChatLink h3 {
+        font-size: 120px;
+    }
+    .contactChatLink .lastMessage {
+        font-size: 60px;
+    }
+    .contactChatLink .lastDay {
+        font-size: 50px;
+    }
+    .contactChatLink img {
+        width: 15%;
+        height: auto;
+    }
+}
+
+@media screen and (min-height: 1000px ) {
+    .contactChatLink h3 {
+        font-size: 60px;
+    }
+    .contactChatLink .lastMessage {
+        font-size: 30px;
+    }
+    .contactChatLink .lastDay {
+        font-size: 25px;
+    }
+    .listaEntera {
+        width: 100%;
+    }
+}
+
+
+
