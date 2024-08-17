@@ -78,9 +78,10 @@
     color: red;
     font-size: 20px;
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 680px) , screen and (max-height: 680px) {
 
     .contactCreateForm{
         width: 100%;}
     
 }
+

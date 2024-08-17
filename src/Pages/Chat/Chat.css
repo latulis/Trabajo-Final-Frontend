@@ -187,6 +187,7 @@ textarea.inputChat::placeholder{
     align-self: flex-end;
     background-color: rgb(158, 255, 255);
     border: solid black 1px;
+    color : black;
 }
 
 

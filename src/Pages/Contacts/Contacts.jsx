@@ -25,6 +25,7 @@ const Contacts = () => {
             />
           </div>
           <Link to='/contactcreate' className='contactCreate'>Crear Contacto</Link>
+          <Link to='/review' className='contactCreate'>Review</Link>
         </header> 
         <div className='contactList'>
           <ContactList contactos={contactos} />

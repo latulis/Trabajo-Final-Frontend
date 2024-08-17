@@ -101,12 +101,12 @@
     }
 
     .detailChat img {
-        width: 30%;
-        height: 30%;
+        width: 20%;
+        height: 20%;
     }
 
     .detailChat h2 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .detailChat span {
@@ -114,12 +114,12 @@
     }
 
     .eliminarContacto {
-        font-size: 20px;
+        font-size: 10px;
         width: 50%;
     }
 
     .editarContacto {
-        font-size: 20px;
+        font-size: 10px;
         width: 50%;
     }
 
@@ -151,7 +151,9 @@
     .editarContacto {
         font-size: 27px;
         width: 40%;
+        margin-top: 5%;
     }
+
     
 }
 
