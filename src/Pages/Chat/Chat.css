@@ -40,6 +40,8 @@
     color: black;
     flex: 1;
     text-align: center;
+    align-self: center;
+    margin-left: 10px;
     margin-right: 18px;
     font-size: 37px;
 }
@@ -200,6 +202,7 @@ textarea.inputChat::placeholder{
     font-size: 24px;  
     cursor: pointer;
     margin-left: 14px;
+    margin-right: 14px;
 }
 
 
@@ -210,9 +213,6 @@ textarea.inputChat::placeholder{
         border-radius: none;
     }
 
-    .enviarChat{
-        width: 20%;
-    }
     
 }
 
@@ -227,9 +227,7 @@ textarea.inputChat::placeholder{
     textarea.inputChat{
         font-size: 24px;
     }
-    .enviarChat{
-        width: 7%;
-    }
+
     .inputChat{
         width: 93%;
     }

@@ -76,10 +76,10 @@
     color: beige;
     margin-top: 1%;
     text-decoration: none;
-    background-color: rgb(42, 167, 209);
+    background-color: rgb(31, 125, 156);
     font-size: 27px;
     width: 40%;
-    height: 7%;
+    height: auto;
     text-align: center;
     border: 1px solid black;
     border-radius: 5px;
@@ -91,10 +91,10 @@
     margin-top: 15%;
     color: beige;
     text-decoration: none;
-    background-color: rgb(42, 167, 209);
-    font-size: 27px;
+    background-color: rgb(31, 125, 156);
+    font-size: 32px;
     width: 40%;
-    height: 7%;
+    height: auto;
     text-align: center;
     border: 1px solid black;
 }
@@ -107,9 +107,14 @@
         border-radius: none;
     }
 
+    .atrasChat h3{
+        font-size: 15px;
+    }
+
+
     .detailChat img {
         width: 20%;
-        height: 20%;
+        height: 15%;
     }
 
     .detailChat h2 {
@@ -123,11 +128,13 @@
     .eliminarContacto {
         font-size: 10px;
         width: 50%;
+        height: auto;
     }
 
     .editarContacto {
         font-size: 10px;
         width: 50%;
+        height: auto;
     }
 
     
