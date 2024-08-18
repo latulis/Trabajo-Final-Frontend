@@ -89,6 +89,7 @@
 
     .formEdit{
         width: 100%;
+        border-radius: none;
     }
     
 }

@@ -54,11 +54,11 @@ export const GlobalContextProvider = ({ children }) => {
     };
 
     const handleCreateMessage = (e, id) => {
-        e.preventDefault();
-
-        const formulario = e.target;
+        e.preventDefault();  
+        
+        const formulario = e.target.closest('form');
         const formularioValores = new FormData(formulario);
-
+        
         const newMessage = {
             text: formularioValores.get('mensajeTexto').trim(),
             author: 'Tu',
@@ -66,23 +66,25 @@ export const GlobalContextProvider = ({ children }) => {
             day: 'hoy',
             estado: 'Enviado',
         };
-
+    
         if (newMessage.text) {
             const updatedContacts = contactos.map((contacto) => {
                 if (contacto.id === id) {
                     return {
                         ...contacto,
-                        mensajes: [...contacto.mensajes, newMessage]
+                        mensajes: [...contacto.mensajes, newMessage],
                     };
                 }
                 return contacto;
             });
-
+    
             setContactos(updatedContacts);
             guardarContactos(updatedContacts);
-            formulario.reset();
+            formulario.reset();  
         }
     };
+    
+    
 
     const handleDeleteContact = (id) => {
         const updatedContacts = contactos.filter((contacto) => contacto.id !== id);

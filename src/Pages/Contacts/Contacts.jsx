@@ -24,8 +24,12 @@ const Contacts = () => {
               placeholder='Buscar'
             />
           </div>
+          <div className='linksContacts'>
           <Link to='/contactcreate' className='contactCreate'>Crear Contacto</Link>
-          <Link to='/review' className='contactCreate'>Review</Link>
+          <Link to='/review' className='contactReviews'>Review</Link>
+
+          </div>
+          
         </header> 
         <div className='contactList'>
           <ContactList contactos={contactos} />
