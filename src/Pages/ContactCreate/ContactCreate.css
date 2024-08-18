@@ -74,10 +74,13 @@
     color: rgb(255, 255, 255);
 }
 
-.error{
+.error {
     color: red;
     font-size: 20px;
+    margin-top: 10px;
+    align-self: flex-start; 
 }
+
 @media screen and (max-width: 680px) , screen and (max-height: 600px) {
 
     .contactCreateForm{

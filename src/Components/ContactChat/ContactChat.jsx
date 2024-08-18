@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const ContactChat = ({ contacto }) => {
     const { nombre, thumbnail, ultima_conexion, id, mensajes = [] } = contacto;
 
-    const lastMessage = mensajes.length > 0 ? mensajes[mensajes.length - 1] : { text: "No messages yet", author: '' };
+    const lastMessage = mensajes.length > 0 ? mensajes[mensajes.length - 1] : { text: "No Hay mensajes todavia", author: '' };
 
     const obtenerUltimoMensaje = () => {
         if (lastMessage.author === 'Tu') {

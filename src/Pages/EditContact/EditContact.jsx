@@ -8,7 +8,7 @@ import { useGlobalContext } from '../../Context/GlobalContext';
 const EditContact = () => {
   const { contacto_id } = useParams(); 
   const contacto = obtenerContactoporId(contacto_id);
-  const {handleEditContact} = useGlobalContext();
+  const {handleEditContact, error} = useGlobalContext();
 
   if (!contacto) {
     return <div>Contacto no encontrado</div>;
@@ -31,6 +31,7 @@ const EditContact = () => {
           <label htmlFor="thumbnail">Url de imagen</label>
           <input type="text" id="thumbnail" name='thumbnail' defaultValue={contacto.thumbnail} />
           <button type='submit'>Guardar cambios</button>
+          {error && <span className="error">{error}</span>}
         </form>
       </div>
     </div>

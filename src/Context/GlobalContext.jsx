@@ -8,6 +8,8 @@ const GlobalContext = createContext();
 export const GlobalContextProvider = ({ children }) => {
     const [contactos, setContactos] = useState(() => obtenerContacto() || []); 
     const [searchTerm, setSearchTerm] = useState('');
+    const [error, setError] = useState('');
+
 
     const navigate = useNavigate();
 
@@ -29,10 +31,10 @@ export const GlobalContextProvider = ({ children }) => {
 
     const handleCreateContact = (e) => {
         e.preventDefault();
-
+    
         const formulario = e.target;
         const formularioValores = new FormData(formulario);
-
+    
         const newContact = {
             nombre: formularioValores.get('nombre').trim(),
             thumbnail: formularioValores.get('thumbnail').trim(),
@@ -41,17 +43,19 @@ export const GlobalContextProvider = ({ children }) => {
             id: uuid(),
             mensajes: []
         };
-
+    
         if (newContact.nombre && newContact.cellphone && newContact.thumbnail) {
             const updatedContacts = [...contactos, newContact];
             setContactos(updatedContacts);
             crearContacto(newContact);
             guardarContactos(updatedContacts); 
+            setError(''); 
             navigate('/');
         } else {
-            <span className="error">Todos los campos son obligatorios</span>;
+            setError('Todos los campos son obligatorios');
         }
     };
+    
 
     const handleCreateMessage = (e, id) => {
         e.preventDefault();  
@@ -120,8 +124,10 @@ export const GlobalContextProvider = ({ children }) => {
             guardarContactos(updatedContacts); 
             
             navigate(`/detailchat/${contactoid}`);
+
+            setError("");
         } else {
-            console.log("Todos los campos son obligatorios");
+            setError("Todos los campos son obligatorios");
         }
     };
     
@@ -133,12 +139,13 @@ export const GlobalContextProvider = ({ children }) => {
             handleChangeSearchTerm,
             handleEditContact,
             searchTerm,
-            contactos  ,
-            
+            contactos,
+            error,
+            setError
         }}>
             {children}
         </GlobalContext.Provider>
-    );
+    );    
 };
 
 export const useGlobalContext = () => {
