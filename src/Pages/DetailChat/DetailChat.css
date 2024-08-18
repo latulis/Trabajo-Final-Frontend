@@ -23,6 +23,7 @@
     border-radius: 10px;
     overflow: hidden;
     align-items: center;
+    overflow-y: auto;
 }
 
 .atrasChat {
@@ -49,8 +50,8 @@
 .detailChat img {
 
     align-self: center;
-    width: 25%;
-    height: 30%;
+    width: 50px;
+    height: 70px;
     border-radius: 50%;
     object-fit: cover;
     
@@ -100,7 +101,7 @@
 }
 
 
-@media screen and (max-width: 668px) ,screen and (max-height: 468px) {
+@media screen and (max-width: 668px) ,screen and (max-height: 600px) {
 
     .detailChat{    
         width: 100%;
@@ -113,39 +114,25 @@
 
 
     .detailChat img {
-        width: 20%;
-        height: 15%;
+        width: 100px;
+        height: 130px;
     }
 
     .detailChat h2 {
         font-size: 20px;
     }
 
-    .detailChat span {
-        font-size: 15px;
-    }
 
-    .eliminarContacto {
-        font-size: 10px;
-        width: 50%;
-        height: auto;
-    }
-
-    .editarContacto {
-        font-size: 10px;
-        width: 50%;
-        height: auto;
-    }
-
+   
     
 }
 
-@media screen  and (min-height: 1200px), screen and (max-width: 1200px) {
+@media screen  and (min-height: 1200px), screen and (min-width: 1200px) {
 
 
     .detailChat img {
-        width: 30%;
-        height: 30%;
+        width: 160px;
+        height: 180px;
     }
 
     .detailChat h2 {
