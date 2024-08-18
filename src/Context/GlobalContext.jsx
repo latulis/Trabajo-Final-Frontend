@@ -21,13 +21,15 @@ export const GlobalContextProvider = ({ children }) => {
         const contactosOriginales = obtenerContacto() || [];
         if (searchTerm !== '') {
             const contactosFiltrados = contactosOriginales.filter(contacto =>
-                contacto.nombre.toLowerCase().includes(searchTerm.toLowerCase())
+                contacto.nombre.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                contacto.cellphone.toLowerCase().includes(searchTerm.toLowerCase())
             );
             setContactos(contactosFiltrados);
         } else {
             setContactos(contactosOriginales);
         }
     }, [searchTerm]);
+    
 
     const handleCreateContact = (e) => {
         e.preventDefault();
@@ -39,6 +41,7 @@ export const GlobalContextProvider = ({ children }) => {
             nombre: formularioValores.get('nombre').trim(),
             thumbnail: formularioValores.get('thumbnail').trim(),
             cellphone: formularioValores.get('cellphone').trim(),
+            descripcion: formularioValores.get('descripcion').trim(),
             ultima_conexion: 'ayer',
             id: uuid(),
             mensajes: []
@@ -107,8 +110,9 @@ export const GlobalContextProvider = ({ children }) => {
             nombre: formularioValores.get('nombre').trim(),
             thumbnail: formularioValores.get('thumbnail').trim(),
             cellphone: formularioValores.get('cellphone').trim(),
+            descripcion: formularioValores.get('descripcion').trim(),
             ultima_conexion: 'ayer',
-            id: contactoid, // Mantiene el mismo ID
+            id: contactoid, 
         };
     
         if (updatedContact.nombre && updatedContact.cellphone && updatedContact.thumbnail) {

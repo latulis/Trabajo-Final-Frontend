@@ -66,6 +66,12 @@
     font-size: 20px;
 }
 
+.detailChat p {
+    margin-top: 5px;
+    color: beige;
+    font-size: 20px;
+}
+
 .eliminarContacto {
     color: beige;
     margin-top: 1%;

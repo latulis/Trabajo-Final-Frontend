@@ -25,6 +25,7 @@ const DetailChat = () => {
         <img src={contacto.thumbnail} alt={contacto.nombre} />
         <h2>{contacto.nombre}</h2>
         <span>{contacto.cellphone}</span>
+        <p>{contacto.descripcion}</p>
         <Link to={`/editcontact/${contacto.id}`} className='editarContacto'>Editar Contacto</Link>
         <button className='eliminarContacto' onClick={() => handleDeleteContact(contacto.id)}>Eliminar Contacto</button>
       </div>

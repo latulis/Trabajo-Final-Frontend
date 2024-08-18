@@ -18,7 +18,9 @@ const ContactCreate = () => {
                 <label htmlFor="nombre">Nombre de Contacto:</label>
                 <input type="text" id='nombre' name='nombre' placeholder='Nombre y Apellido' />
                 <label htmlFor="cellphone">Teléfono:</label>
-                <input type="text" id='cellphone' name='cellphone' placeholder='cellphone' />
+                <input type="text" id='cellphone' name='cellphone' placeholder='Celular' />
+                <label htmlFor="descripcion">Descripcion(Opcional) : </label>
+                <input type="text" id='descripcion' name='descripcion' placeholder='Escriba una descripción' />
                 <label htmlFor="thumbnail">Link de Imagen:</label>
                 <input type="text" id='thumbnail' name='thumbnail' placeholder='URL' />
                 <input type="submit" value="Crear Contacto" className="butonsubmit" id="butonsubmit" />

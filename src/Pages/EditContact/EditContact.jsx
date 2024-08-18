@@ -28,6 +28,8 @@ const EditContact = () => {
           <input type="text" id="nombre" name='nombre' defaultValue={contacto.nombre} />
           <label htmlFor="cellphone">Celular</label>
           <input type="text" id="cellphone" name='cellphone' defaultValue={contacto.cellphone} />
+          <label htmlFor="descripcion">Descripción(Opcional)</label>
+          <input type="text" id="descripcion" name='descripcion' defaultValue={contacto.descripcion} />
           <label htmlFor="thumbnail">Url de imagen</label>
           <input type="text" id="thumbnail" name='thumbnail' defaultValue={contacto.thumbnail} />
           <button type='submit'>Guardar cambios</button>
