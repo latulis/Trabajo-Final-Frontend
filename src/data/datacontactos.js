@@ -9,7 +9,7 @@ cellphone : '3515647459',
         mensajes:[
                     {
                         author: 'Tu',
-                        text: 'Hola Messi,eres mejor que todos, Te amo',
+                        text: 'Que onda Leo, cuando nos juntamos a tomar unos mates',
                         estado: 'visto' ,
                         day: 'hoy' ,
                         hour: '13:15',
@@ -17,7 +17,7 @@ cellphone : '3515647459',
                     },
                     {
                         author: 'Otro',
-                        text: 'Hola lauti, a veces me cuesta ser el mejor pero tengo que soportarlo porque soy muy bueno',
+                        text: 'Uff cuando quieras amigo,aprovechemos ahora que estoy lesionado',
                         estado: 'visto',
                         day: 'ayer',
                         hour: '13:15',
@@ -35,7 +35,7 @@ cellphone : '3515647459',
                 mensajes:[
                             {
                                 author: 'Tu',
-                                text: 'Hola Spider man,Eres mi heroe',
+                                text: 'Hola Spidy, como va ese tema del multiverso',
                                 estado: 'visto',
                                 day: 'ayer',
                                 hour: '13:15',
@@ -44,111 +44,37 @@ cellphone : '3515647459',
                             
                             {
                                 author: 'Otro',
-                                text: 'Como el de muchos otros amigo, pero tu eres mejor',
+                                text: 'Terrible amigo,me estoy re mareando, me gustaba cuando solo detenia ladrones por la calle',
                                 estado: 'visto',
                                 day: 'ayer',
                                 hour: '13:15',
                                 
                             },
-                            {
-                                author: 'Otro',
-                                text: 'texto de mensajeerf4rgkm3fn438yuf4n3hf8y3hfyerognerobneobienjrboitenboeribnjtrsiobntriobnetboietbnteioibntr',
-                                estado: 'visto',
-                                day: 'ayer',
-                                hour: '13:15',
-                                
-                            },
-                            {
-                                author: 'Otro',
-                                text: 'texto de mensajeerf4rgkm3fn438yuf4n3hf8y3hfyerognerobneobienjrboitenboeribnjtrsiobntriobnetboietbnteioibntr',
-                                estado: 'visto',
-                                day: 'ayer',
-                                hour: '13:15',
-                                
-                            }
-                    ,        {
-                                author: 'Otro',
-                                text: 'texto de mensajeerf4rgkm3fn438yuf4n3hf8y3hfyerognerobneobienjrboitenboeribnjtrsiobntriobnetboietbnteioibntr',
-                                estado: 'visto',
-                                day: 'ayer',
-                                hour: '13:15',
-                                
-                            },
-                            {
-                                author: 'Otro',
-                                text: 'texto de mensajeerf4rgkm3fn438yuf4n3hf8y3hfyerognerobneobienjrboitenboeribnjtrsiobntriobnetboietbnteioibntr',
-                                estado: 'visto',
-                                day: 'ayer',
-                                hour: '13:15',
-                                
-                            }
-                            ,
-                            {
-                                author: 'Otro',
-                                text: 'texto de mensajeerf4rgkm3fn438yuf4n3hf8y3hfyerognerobneobienjrboitenboeribnjtrsiobntriobnetboietbnteioibntr',
-                                estado: 'visto',
-                                day: 'ayer',
-                                hour: '13:15',
-                                
-                            },{
-                                author: 'Otro',
-                                text: 'texto de mensajeerf4rgkm3fn438yuf4n3hf8y3hfyerognerobneobienjrboitenboeribnjtrsiobntriobnetboietbnteioibntr',
-                                estado: 'visto',
-                                day: 'ayer',
-                                hour: '13:15',
-                                
-                            }
-                            ,{
-                                author: 'Otro',
-                                text: 'texto de mensajeerf4rgkm3fn438yuf4n3hf8y3hfyerognerobneobienjrboitenboeribnjtrsiobntriobnetboietbnteioibntr',
-                                estado: 'visto',
-                                day: 'ayer',
-                                hour: '13:15',
-                                
-                            },{
-                                author: 'Otro',
-                                text: 'texto de mensajeerf4rgkm3fn438yuf4n3hf8y3hfyerognerobneobienjrboitenboeribnjtrsiobntriobnetboietbnteioibntr',
-                                estado: 'visto',
-                                day: 'ayer',
-                                hour: '13:15',
-                                
-                            },{
-                                author: 'Otro',
-                                text: 'texto de mensajeerf4rgkm3fn438yuf4n3hf8y3hfyerognerobneobienjrboitenboeribnjtrsiobntriobnetboietbnteioibntr',
-                                estado: 'visto',
-                                day: 'ayer',
-                                hour: '13:15',
-                                
-                            },{
-                                author: 'Otro',
-                                text: 'texto de mensajeerf4rgkm3fn438yuf4n3hf8y3hfyerognerobneobienjrboitenboeribnjtrsiobntriobnetboietbnteioibntr',
-                                estado: 'visto',
-                                day: 'ayer',
-                                hour: '13:15',
-                                
-                            },{
-                                author: 'Otro',
-                                text: 'texto de mensajeerf4rgkm3fn438yuf4n3hf8y3hfyerognerobneobienjrboitenboeribnjtrsiobntriobnetboietbnteioibntr',
-                                estado: 'visto',
-                                day: 'ayer',
-                                hour: '13:15',
-                                
-                            },
+                            
                         ] 
              }
 ,
 
 {
-    nombre: 'Lautaro',
-    thumbnail: 'https://scontent.fcor10-3.fna.fbcdn.net/v/t1.18169-9/10177520_1548319992060957_6490252261290559068_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=53a332&_nc_ohc=Makm2QIGngUQ7kNvgFbmJRA&_nc_ht=scontent.fcor10-3.fna&oh=00_AYBzCMqaKOz1bnAfPjkVPO2f985_6BdTpPU8hGVbVeJqTQ&oe=66E0EF18',
+    nombre: 'Billy boy',
+    thumbnail: 'https://www.dexerto.com/cdn-image/wp-content/uploads/2024/05/28/the-boys-butcher.jpeg?width=3840&quality=60&format=auto',
     ultima_conexion: 'ayer',
-    descripcion: 'Hola, soy Lautaro. Estoy usando WhatsApp. ¿Podrías darme una mano?',
+    descripcion: 'Hola, soy Butcher. Estoy usando WhatsApp. ¿Podrías darme una mano?',
 cellphone : '3515647459',
     id: 3,
     mensajes:[
                 {
                     author: 'Tu'  ,
-                    text: 'texto de mensaje',
+                    text: 'Que onda butcher, cuando te vas a cargar a homelander',
+                    estado: 'visto' ,
+                    day:  '23/12/2024',
+                    hour: '13:15',
+                    
+                },
+
+                {
+                    author: 'Otro'  ,
+                    text: 'huiy quiero asegurarme de que sufra primero,y despues voy a matarlos a todos',
                     estado: 'visto' ,
                     day:  '23/12/2024',
                     hour: '13:15',

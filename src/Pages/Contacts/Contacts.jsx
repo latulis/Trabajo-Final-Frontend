@@ -26,7 +26,7 @@ const Contacts = () => {
           </div>
           <div className='linksContacts'>
           <Link to='/contactcreate' className='contactCreate'>Crear Contacto</Link>
-          <Link to='/review' className='contactReviews'>Review</Link>
+          <Link to='/review' className='contactReviews'>Reviews</Link>
 
           </div>
           

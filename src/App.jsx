@@ -1,5 +1,5 @@
 import React from 'react';
-import { Contacts, Chat, DetailChat, ContactCreate, NotFound, EditContact , Review} from './Pages';
+import { Contacts, Chat, DetailChat, ContactCreate, NotFound, EditContact , Review, ReviewCreate} from './Pages';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
       <Route path='/contactcreate' element={<ContactCreate />} />
       <Route path='/editcontact/:contacto_id' element={<EditContact />} />
       <Route path='/review' element={<Review />} />
+      <Route path='/reviewcreate' element={<ReviewCreate />} />
       <Route path='*' element={<NotFound />} />
     </Routes>
   );

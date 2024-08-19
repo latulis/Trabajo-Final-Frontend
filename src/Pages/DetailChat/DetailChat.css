@@ -35,10 +35,8 @@
     height: 10%;
     align-items: center;
 }
-.atrasChat h3{
-    flex: 1;
-    text-align: center;
-    font-size: 25px;
+.atrasChat .title{
+    font-size: 45px;
 }
 
 .atrasChat i{
@@ -50,8 +48,8 @@
 .detailChat img {
 
     align-self: center;
-    width: 50px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     object-fit: cover;
     
@@ -127,16 +125,16 @@
     
 }
 
-@media screen  and (min-height: 1200px), screen and (min-width: 1200px) {
+@media screen and (min-height: 1500px), screen and (min-width: 1500px) {
 
 
     .detailChat img {
         width: 160px;
-        height: 180px;
+        height: 160px;
     }
 
-    .detailChat h2 {
-        font-size: 50px;
+    .atrasChat .title{
+        font-size: 56px;
     }
 
     .detailChat span {

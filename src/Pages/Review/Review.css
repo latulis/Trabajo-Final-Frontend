@@ -11,7 +11,7 @@
 
 .headerReview {
     justify-content: space-between;
-    height: 10%;
+    height: auto;
     display: flex;
     flex-direction: row;
     background-color: rgb(19, 85, 85);
@@ -20,10 +20,10 @@
 
 .headerReview .atrasChat {
     text-decoration: none;
-    width: 10%;
+    width: 12%;
     background-color: transparent;
     border: none;
-    font-size: 44px; 
+    font-size: 50px; 
     color: black; 
     margin-left: 1px;
     align-self: center;
@@ -58,6 +58,8 @@
 }
 
 .lineaDePosteos{
+    width: 100%;
+    height: 100%;
     display: flex;
         flex-direction: column;
         border: 1px solid black;
@@ -86,26 +88,45 @@
     margin: 10px;
     margin-top: 5px;
 }
-
 .footerReview {
     background-color: rgb(19, 85, 85);
     align-self: flex-end;
-    height: 100%;
+    height: 15%; 
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: end;
     border: solid black 1px;
     border-radius: 10px;
 }
 
+
 .footerReview .reviewCreate{
-    width: 30%;
+    text-decoration: none;
+    width: auto;
     height: 80%;
     background-color: transparent;
     border: 1px solid antiquewhite;
     font-size: 24px; 
     color:aliceblue; 
-    margin-left: 10px;
+    margin-right: 10px;
     align-self: center;
     border-radius: 10px;
+    padding: 5px;
+}
+
+
+@media screen and (max-width: 600px) , screen and (max-height: 600px) {
+
+    .review{
+        width: 100%;}
+
+}
+
+
+@media screen and (min-width: 1400px) , screen and (min-height: 1500px) {
+
+    .review h1{
+        font-size: 70px;}
+    
 }

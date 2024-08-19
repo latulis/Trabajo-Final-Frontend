@@ -5,6 +5,7 @@ import ContactCreate from "./ContactCreate/ContactCreate";
 import NotFound from "./404NotFound/404NotFound";
 import EditContact from "./EditContact/EditContact";
 import Review from "./Review/Review";
+import ReviewCreate from "./ReviewCreate/ReviewCreate";
 
 export {
     Chat,
@@ -14,5 +15,6 @@ export {
     NotFound,
     EditContact,
     Review,
+    ReviewCreate
 
 };

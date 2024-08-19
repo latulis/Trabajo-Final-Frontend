@@ -86,7 +86,7 @@
     font-size: 20px;
 }
 
-@media screen and (max-width: 680px) , screen and (max-height: 680px) {
+@media screen and (max-width: 680px) , screen and (max-height: 550px) {
 
     .editContact{
         width: 100%;
@@ -99,7 +99,7 @@
 }
 }
 
-@media screen and (min-width: 1250px) , screen and (min-height: 1250px) {
+@media screen and (min-width: 1450px) , screen and (min-height: 1450px) {
     
     .atrasChat h3{
         font-size: 90px;

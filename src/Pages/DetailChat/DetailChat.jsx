@@ -20,7 +20,7 @@ const DetailChat = () => {
           <Link to={`/chat/${contacto.id}`}>
             <i className="bi bi-arrow-left-circle-fill"></i>
           </Link>
-          <h3>Info de contacto</h3>
+          <h3 className='title'>Info de contacto</h3>
         </div>
         <img src={contacto.thumbnail} alt={contacto.nombre} />
         <h2>{contacto.nombre}</h2>
