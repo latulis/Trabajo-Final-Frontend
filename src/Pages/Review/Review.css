@@ -1,0 +1,111 @@
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+
+
+.headerReview {
+    justify-content: space-between;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(19, 85, 85);
+
+}
+
+.headerReview .atrasChat {
+    text-decoration: none;
+    width: 10%;
+    background-color: transparent;
+    border: none;
+    font-size: 44px; 
+    color: black; 
+    margin-left: 1px;
+    align-self: center;
+}
+
+.review h1{
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}
+
+.review h2{
+    font-size: 60px;
+    color: aliceblue;
+}
+
+
+.review {
+    background-color: rgb(19, 85, 85);
+        align-self: center;
+        width: 75%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 10px;
+        overflow: hidden;
+        
+    
+
+}
+
+.lineaDePosteos{
+    display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        overflow: hidden;
+        overflow-y: auto;
+    
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(109, 255, 255);
+    width: 100%;
+
+}
+
+.post h3{
+    font-size: 27px;
+    margin: 10px;
+    margin-bottom: 5px;
+
+}
+
+.post p{
+    font-size: 18px;
+    margin: 10px;
+    margin-top: 5px;
+}
+
+.footerReview {
+    background-color: rgb(19, 85, 85);
+    align-self: flex-end;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+.footerReview .reviewCreate{
+    width: 30%;
+    height: 80%;
+    background-color: transparent;
+    border: 1px solid antiquewhite;
+    font-size: 24px; 
+    color:aliceblue; 
+    margin-left: 10px;
+    align-self: center;
+    border-radius: 10px;
+}

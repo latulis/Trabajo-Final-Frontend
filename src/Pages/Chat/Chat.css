@@ -36,6 +36,7 @@
 }
 
 .headerChat h2 {
+
     text-decoration: none;
     color: black;
     flex: 1;
@@ -186,6 +187,7 @@ textarea.inputChat {
 }
 textarea.inputChat::placeholder{
     color: rgba(0, 0, 0, 0.329);
+    margin-top: 4px;
 }
 
 .enviarChat {
@@ -211,6 +213,10 @@ textarea.inputChat::placeholder{
         width: 100%;
         margin-left: 0;
         border-radius: none;
+    }
+
+    .headerChat h2{
+        font-size: 20px;
     }
 
     
