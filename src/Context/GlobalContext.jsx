@@ -6,13 +6,26 @@ import { v4 as uuid } from 'uuid';
 const GlobalContext = createContext();
 
 export const GlobalContextProvider = ({ children }) => {
-    const [contactos, setContactos] = useState(() => obtenerContacto() || []); 
+    const [contactos, setContactos] = useState(() => obtenerContacto() || []);
     const [searchTerm, setSearchTerm] = useState('');
     const [error, setError] = useState('');
     const [reviews, setReviews] = useState([]);
 
-
     const navigate = useNavigate();
+
+    useEffect(() => {
+        const fetchReviews = async () => {
+            try {
+                const response = await fetch('https://jsonplaceholder.typicode.com/posts');
+                const data = await response.json();
+                setReviews(data);
+            } catch (error) {
+                console.error("Error fetching reviews:", error);
+            }
+        };
+
+        fetchReviews();
+    }, []);
 
     const handleChangeSearchTerm = (e) => {
         setSearchTerm(e.target.value);
@@ -157,8 +170,6 @@ export const GlobalContextProvider = ({ children }) => {
         }
     };
     
-    
-
     return (
         <GlobalContext.Provider value={{
             handleCreateContact,
@@ -171,7 +182,8 @@ export const GlobalContextProvider = ({ children }) => {
             contactos,
             error,
             setError,
-            reviews  
+            reviews,
+            setReviews
         }}>
             {children}
         </GlobalContext.Provider>
