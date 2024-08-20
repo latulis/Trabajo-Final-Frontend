@@ -59,7 +59,7 @@ cellphone : '3515647459',
     nombre: 'Billy boy',
     thumbnail: 'https://www.dexerto.com/cdn-image/wp-content/uploads/2024/05/28/the-boys-butcher.jpeg?width=3840&quality=60&format=auto',
     ultima_conexion: 'ayer',
-    descripcion: 'Hola, soy Butcher. Estoy usando WhatsApp. ¿Podrías darme una mano?',
+    descripcion: 'Oi, soy Butcher. Estoy usando WhatsApp. ¿Podrías darme una mano?',
 cellphone : '3515647459',
     id: 3,
     mensajes:[
@@ -74,7 +74,7 @@ cellphone : '3515647459',
 
                 {
                     author: 'Otro'  ,
-                    text: 'huiy quiero asegurarme de que sufra primero,y despues voy a matarlos a todos',
+                    text: 'oi, quiero asegurarme de que sufra primero,y despues voy a matarlos a todos',
                     estado: 'visto' ,
                     day:  '23/12/2024',
                     hour: '13:15',

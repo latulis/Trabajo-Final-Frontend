@@ -51,10 +51,10 @@ export const GlobalContextProvider = ({ children }) => {
         const formularioValores = new FormData(formulario);
     
         const newContact = {
-            nombre: formularioValores.get('nombre').trim(),
-            thumbnail: formularioValores.get('thumbnail').trim(),
-            cellphone: formularioValores.get('cellphone').trim(),
-            descripcion: formularioValores.get('descripcion').trim(),
+            nombre: formularioValores.get('nombre') ,
+            thumbnail: formularioValores.get('thumbnail') ,
+            cellphone: formularioValores.get('cellphone') ,
+            descripcion: '' ,
             ultima_conexion: 'ayer',
             id: uuid(),
             mensajes: []
@@ -79,7 +79,7 @@ export const GlobalContextProvider = ({ children }) => {
         const formularioValores = new FormData(formulario);
         
         const newMessage = {
-            text: formularioValores.get('mensajeTexto').trim(),
+            text: formularioValores.get('mensajeTexto') ,
             author: 'Tu',
             hour: 'ahora',
             day: 'hoy',
@@ -117,9 +117,9 @@ export const GlobalContextProvider = ({ children }) => {
         const formularioValores = new FormData(formulario);
     
         const updatedContact = {
-            nombre: formularioValores.get('nombre').trim(),
-            thumbnail: formularioValores.get('thumbnail').trim(),
-            cellphone: formularioValores.get('cellphone').trim(),
+            nombre: formularioValores.get('nombre') ,
+            thumbnail: formularioValores.get('thumbnail') ,
+            cellphone: formularioValores.get('cellphone') ,
             ultima_conexion: 'ayer',
             id: contactoid, 
         };
@@ -143,8 +143,8 @@ export const GlobalContextProvider = ({ children }) => {
         e.preventDefault();
         const formulario = e.target;
         const formularioValores = new FormData(formulario);
-        const title = formularioValores.get('title').trim();
-        const review = formularioValores.get('review').trim();
+        const title = formularioValores.get('title') ;
+        const review = formularioValores.get('review') ;
      
         if (title && review) {
             const newReview = {
