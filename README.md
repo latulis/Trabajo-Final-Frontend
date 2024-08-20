@@ -22,20 +22,15 @@ Este proyecto consiste en una pagina como whatsap que usa localstorage para alma
 
 Hubo bastantes dificultades que me hicieron tener que volver a consultar las clases grabadas y buscar informacion.
 
-* Crear mensajes
-   Se pudo resolver consultando las clases 
-* Interactuar con contactos creados
-  Cuando se creaban contactos tuve un problema a la hora de mostrarlos en la lista y de mandar mensajes
-* Crear reviews
-  Al usar get hizo que cuando se crear una review no apareciera en la lista asi que tuve usar una funcion para guardarlos en un set al obtenerlos
-* Editar Contactos
-  Cuando editaba un contacto me guardaba 10 contactos iguales mas en el local storagge ademas de que no se me editaba el contacto, y era por un problema en la funcion handleEditContact que hacia que el renderizado se haga muchas veces
-* Realizar diseño de la pagina
-  No soy bueno como diseñador ,me quede bastante corto de ideas y aunque me voy contento con mi desempeño con la funcionalidad de la pagina ,no me voy conforme con los estetico
+* <p color='gold'>Crear mensajes</p>. Se pudo resolver consultando las clases
+* <p color='gold'>Interactuar con contactos creados</p>Cuando se creaban contactos tuve un problema a la hora de mostrarlos en la lista y de mandar mensajes
+* <p color='gold'>Crear reviews</p>Al usar get hizo que cuando se crear una review no apareciera en la lista asi que tuve usar una funcion para guardarlos en un set al obtenerlos
+* <p color='gold'>Editar Contactos</p>Cuando editaba un contacto me guardaba 10 contactos iguales mas en el local storagge ademas de que no se me editaba el contacto, y era por un problema en la funcion handleEditContact que hacia que el renderizado se haga muchas veces
+* <p color='gold'>Realizar diseño de la pagina</p>No soy bueno como diseñador ,me quede bastante corto de ideas y aunque me voy contento con mi desempeño con la funcionalidad de la pagina ,no me voy conforme con los estetico
 
 
 </br>
-
+---
 
 ## Pages
 
