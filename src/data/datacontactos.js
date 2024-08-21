@@ -5,7 +5,7 @@
         ultima_conexion: 'ayer',
 cellphone : '3515647459',
         id: 1,
-        descripcion: 'Messi es mejor que todos',
+        descripcion: 'Ya tengo la copa giles',
         mensajes:[
                     {
                         author: 'Tu',
@@ -28,7 +28,7 @@ cellphone : '3515647459',
         {
                 nombre: 'Spidy',
                 id: 2,
-                descripcion: 'Spiderman es mejor que todos',
+                descripcion: 'Fui al espacio a combatir a thanos, y vos?',
                 thumbnail: 'https://i.pinimg.com/736x/ba/75/8e/ba758e7f4db9405430e6ff651622a03d.jpg',
                 ultima_conexion: 'ayer',
 cellphone : '3515647459',
