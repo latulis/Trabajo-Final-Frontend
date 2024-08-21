@@ -26,10 +26,10 @@
     width: 100%;
     height: 10%;
     background-color: rgb(19, 85, 85);
-    position: relative; 
+    position: relative;
 }
 
-.headerReviewCreate .title {
+.headerReviewCreate .headerTitle{
     color: aliceblue;
     text-align: center;
     font-size: 50px;
@@ -39,7 +39,7 @@
 }
 
 
-.headerReviewCreate .atrasChat {
+.headerReviewCreate .atrasChat{
     font-size: 30px;
     color: black;
     position: absolute;
@@ -56,21 +56,21 @@
 }
 
 
-.reviewCreate label {
+.formReview label {
     color: aliceblue;
     font-size: 27px;
     margin: 10px;
     margin-bottom: 2px;
 }
 
-.reviewCreate input {
+.formReview input{
     margin: 10px;
     padding: 10px;
     font-size: 20px;
     width: 50%;
 }
 
-.reviewCreate textarea {
+.formReview textarea{
     margin: 10px;
     padding: 10px;
     font-size: 20px;
@@ -78,7 +78,7 @@
 }   
 
 
-.reviewCreate button{
+.formReview button{
     margin: 10px;
     padding: 10px;
     font-size: 24px;
@@ -95,6 +95,10 @@
 
     .reviewCreate {
         width: 100%;
+    }
+
+    .headerReviewCreate .headerTitle {
+        font-size: 30px;
     }
     
 }

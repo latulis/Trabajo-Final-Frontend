@@ -16,18 +16,18 @@ const DetailChat = () => {
   return (
     <div className='container'>
       <div className='detailChat'>
-        <div className='atrasChat'>
-          <Link to={`/chat/${contacto.id}`}>
+        <header className='headerDetailChat'>
+          <Link to={`/chat/${contacto.id}`} className='atrasChat'>
             <i className="bi bi-arrow-left-circle-fill"></i>
           </Link>
-          <h3 className='title'>Info de contacto</h3>
-        </div>
+          <h3 className='headerTitle'>Info de contacto</h3>
+        </header>
         <img src={contacto.thumbnail} alt={contacto.nombre} />
         <h2>{contacto.nombre}</h2>
         <span>{contacto.cellphone}</span>
         <p>{contacto.descripcion}</p>
-        <Link to={`/editcontact/${contacto.id}`} className='editarContacto'>Editar Contacto</Link>
-        <button className='eliminarContacto' onClick={() => handleDeleteContact(contacto.id)}>Eliminar Contacto</button>
+        <Link to={`/editcontact/${contacto.id}`} className='buttonEditarContacto'>Editar Contacto</Link>
+        <button className='buttonEliminarContacto' onClick={() => handleDeleteContact(contacto.id)}>Eliminar Contacto</button>
       </div>
     </div>
   );

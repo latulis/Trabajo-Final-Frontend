@@ -23,7 +23,7 @@
     background-color: rgb(19, 85, 85);
 }
 
-.atrasChat {
+.headerEditContact {
     display: flex;
     flex-direction: row;
     padding: 5px;
@@ -32,17 +32,22 @@
     align-items: center;
     background-color: rgb(19, 85, 85);
 }
-.atrasChat h3{
+.headerEditContact .titleEditContact{
     width: 100%;
     color: aliceblue;
     text-align: center;
     font-size: 50px;
 }
 
-.atrasChat i{
-    font-size: 30px;
-    margin-right: 10px;
-    color: black ;
+.headerEditContact .atrasChat{
+    text-decoration: none;
+    width: 10%;
+    background-color: transparent;
+    border: none;
+    font-size: 34px; 
+    color: black; 
+    margin-left: 1px;
+    align-self: center;
 }
 
 .formEdit {
@@ -93,7 +98,7 @@
         border-radius: none;
     }
 
-    .atrasChat h3{
+    .headerEditContact .titleEditContact{
         font-size: 30px;
     
 }
@@ -101,7 +106,7 @@
 
 @media screen and (min-width: 1450px) , screen and (min-height: 1450px) {
     
-    .atrasChat h3{
+    .headerEditContact .titleEditContact{
         font-size: 90px;
 
     }

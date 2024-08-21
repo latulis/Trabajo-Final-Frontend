@@ -13,9 +13,9 @@
     height: 100vh; }
 
 .detailChat {
-    background-color:rgb(19, 85, 85); ;
+    background-color: rgb(19, 85, 85);
     align-self: center;
-    width: 80%;
+    width: 75%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -26,23 +26,33 @@
     overflow-y: auto;
 }
 
-.atrasChat {
+.headerDetailChat {
+    width: 100%;
+    justify-content: space-between;
+    height: 10%;
     display: flex;
     flex-direction: row;
-    padding: 5px;
-    background-color: rgb(76, 173, 173);
-    width: 100%;
-    height: 10%;
-    align-items: center;
 }
-.atrasChat .title{
-    font-size: 45px;
+.headerDetailChat .headerTitle{
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    margin-right: 8%;
+
+
 }
 
-.atrasChat i{
-    font-size: 30px;
-    margin-right: 10px;
-    color: black ;
+.headerDetailChat .atrasChat{
+    align-self: start;
+    text-decoration: none;
+    width: 10%;
+    background-color: transparent;
+    border: none;
+    font-size: 34px; 
+    color: black; 
+    margin-left: 1px;
+    align-self: center;
 }
 
 .detailChat img {
@@ -71,7 +81,7 @@
     font-size: 20px;
 }
 
-.eliminarContacto {
+.buttonEliminarContacto {
     color: beige;
     margin-top: 1%;
     text-decoration: none;
@@ -85,7 +95,7 @@
 
 }
 
-.editarContacto {
+.buttonEditarContacto {
     border-radius: 5px;
     margin-top: 15%;
     color: beige;
@@ -106,8 +116,8 @@
         border-radius: none;
     }
 
-    .atrasChat h3{
-        font-size: 15px;
+    .headerDetailChat .headerTitle{
+        font-size: 30px;
     }
 
 
@@ -133,7 +143,7 @@
         height: 160px;
     }
 
-    .atrasChat .title{
+    .headerDetailChat .headerTitle{
         font-size: 56px;
     }
 
@@ -142,12 +152,12 @@
         font-size: 20px;
     }
 
-    .eliminarContacto {
+    .buttonEliminarContacto {
         font-size: 27px;
         width: 40%;
     }
 
-    .editarContacto {
+    .buttonEditarContacto {
         font-size: 27px;
         width: 40%;
         margin-top: 5%;

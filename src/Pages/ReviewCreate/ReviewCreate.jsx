@@ -9,10 +9,10 @@ const ReviewCreate = () => {
         <div className='container'>
             <div className='reviewCreate'>
                 <header className='headerReviewCreate'>
-                    <Link to={`/`} className='atrasChat'>
+                    <Link to={'/review'} className='atrasChat'>
                         <i className="bi bi-arrow-left-circle-fill"></i>
                     </Link>
-                    <h2 className='title'>Escribe una review</h2>
+                    <h2 className='headerTitle'>Escribe una review</h2>
                 </header>
                 <form className='formReview' onSubmit={handleCreateReview}>
                     <label htmlFor="title">Titulo: </label> 

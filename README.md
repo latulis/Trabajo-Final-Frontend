@@ -96,8 +96,10 @@ No me gusta lo estetico de esta pagina,siento que se pueden agregar muchas mas c
 
 Subio mucha mi confianza haciendo este trabajo, crei que iba lento y de mala forma a la mitad del curso porque siempre iba atrasado, pero logre ponerme al dia y comprometerme con el trabajo ,algo que me gusto hacer y que cuando agarraba no lo podia soltar, se me pasaban las horas haciendolo. Si no tuviera otras responsabilidades seria una adiccion.
 
-
+</br>
 ---
+Una vez mas o menos concluido el trabajo fue cuando me puse a trabajar en descomponer el codigo en las pages y pasarlo a componentes
+
 
 
 

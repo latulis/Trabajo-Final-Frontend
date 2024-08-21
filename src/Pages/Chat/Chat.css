@@ -64,7 +64,7 @@
 .headerChat .atrasChat {
     background-color: transparent;
     border: none;
-    font-size: 44px; 
+    font-size: 30px; 
     color: black; 
     margin-left: 1px;
 }
@@ -86,6 +86,12 @@
     
 }
 
+.mensajero{
+    display: flex;
+    flex-direction: column;
+
+}
+
 .mensajeTu, .mensajeOtro {
     width: auto;
     min-width: 20%; 
@@ -103,6 +109,7 @@
     align-self: flex-end;
     margin-right: 5px;
     margin-top: 5px;
+    text-align: right;
 }
 
 .mensajeOtro {

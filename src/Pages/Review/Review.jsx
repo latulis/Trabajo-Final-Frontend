@@ -2,17 +2,11 @@ import React, { useEffect, useState } from 'react';
 import './Review.css';
 import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../../Context/GlobalContext';
+import { CargarReviews } from '../../Components';
 
 const Review = () => {
     const { reviews, setReviews } = useGlobalContext();
     const [isLoading, setIsLoading] = useState(false);
-    
-    
-    useEffect(() => {
-        setIsLoading(true);
-        
-        setIsLoading(false);
-    }, []);
 
     return (
         <div className='container'>
@@ -23,21 +17,9 @@ const Review = () => {
                     </Link>
                     <h1>Reviews</h1>
                 </header>
-                <div className='lineaDePosteos'>
-                    {isLoading ? (
-                        <h2 className='cargando'>Cargando</h2>
-                    ) : (
-                        reviews && reviews.map(post => (
-                            <div key={post.id} className='post'>
-                                <h3>{post.title}</h3>
-                                <p>{post.body}</p>
-                                <hr />
-                            </div>
-                        ))
-                    )}
-                </div>
+                <CargarReviews />
                 <footer className='footerReview'>
-                    <Link to='/reviewcreate' className='reviewCreate'>
+                    <Link to='/reviewcreate' className='linkReviewCreate'>
                         Crear una Review
                     </Link>
                 </footer>

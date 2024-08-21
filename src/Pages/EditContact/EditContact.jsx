@@ -17,12 +17,12 @@ const EditContact = () => {
   return (
     <div className='container'>
       <div className='editContact'>
-        <div className='atrasChat'>
-          <Link to={`/detailchat/${contacto.id}`}>
+        <header className='headerEditContact'>
+          <Link to={`/detailchat/${contacto.id}`} className='atrasChat'>
             <i className="bi bi-arrow-left-circle-fill"></i>
           </Link>
-          <h3 className='title'>Editar Contacto</h3>
-        </div>
+          <h3 className='titleEditContact'>Editar Contacto</h3>
+        </header>
         <form className='formEdit' onSubmit={(e) => handleEditContact(e, contacto.id)}>
           <label htmlFor="nombre">Nombre</label>
           <input type="text" id="nombre" name='nombre' defaultValue={contacto.nombre} />

@@ -16,7 +16,7 @@ const ContactChat = ({ contacto }) => {
 
     return (
         <Link to={`/chat/${id}`} className='contactChatLink'>
-            <img src={thumbnail} alt={nombre} />
+            <img src={thumbnail} alt={nombre}  />
             <div className='contactChatInfo'>
                 <h3>{nombre}</h3>
                 <span className='lastMessage'>{obtenerUltimoMensaje()}</span>
