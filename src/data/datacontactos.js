@@ -122,7 +122,7 @@ cellphone : '3515647459',
  {
     nombre: 'Obi wan',
     id: 5,
-    thumbnail: 'https://static.wikia.nocookie.net/dominios-encantados/images/4/4e/Obi_Wan_8.png/revision/latest?cb=20150531162316&path-prefix=es',
+    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvgZBl9bmyiYExHwQn03z1gctKw173FnK25g&s',
     descripcion: 'EL jedi que ha vencido a mas Siths',
 cellphone : '3515647459',
     mensajes:[
