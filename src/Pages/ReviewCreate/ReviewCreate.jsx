@@ -7,7 +7,7 @@ const ReviewCreate = () => {
     const { handleCreateReview } = useGlobalContext();
     return (
         <div className='container'>
-            <div className='reviewCreate'>
+            <div className='reviewCreatePage'>
                 <header className='headerReviewCreate'>
                     <Link to={'/review'} className='atrasChat'>
                         <i className="bi bi-arrow-left-circle-fill"></i>

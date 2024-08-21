@@ -7,11 +7,12 @@ const ContactCreate = () => {
     const { handleCreateContact, error } = useGlobalContext();
     return (
         <div className='container'>
-            <form className='contactCreateForm' onSubmit={handleCreateContact}>
-                <header className='headerCreate'>
+            <div className='contactCreatePage'>
+            <header className='headerCreate'>
                     <Link to={`/`} className='atrasChat'><i className="bi bi-arrow-left-circle-fill"></i></Link>
-                    <h1>Crear Contacto</h1>
+                    <h1 className='headerTitle'>Crear Contacto</h1>
                 </header>
+            <form className='contactCreateForm' onSubmit={handleCreateContact}>
                 
                 <br />
                 <br />
@@ -25,6 +26,7 @@ const ContactCreate = () => {
 
                 {error && <span className="error">{error}</span>}
             </form>
+        </div>
         </div>
     );
 }

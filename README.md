@@ -27,6 +27,7 @@ Hubo bastantes dificultades que me hicieron tener que volver a consultar las cla
 * <p color='gold'>Crear reviews</p>Al usar get hizo que cuando se crear una review no apareciera en la lista asi que tuve usar una funcion para guardarlos en un set al obtenerlos
 * <p color='gold'>Editar Contactos</p>Cuando editaba un contacto me guardaba 10 contactos iguales mas en el local storagge ademas de que no se me editaba el contacto, y era por un problema en la funcion handleEditContact que hacia que el renderizado se haga muchas veces
 * <p color='gold'>Realizar diseño de la pagina</p>No soy bueno como diseñador ,me quede bastante corto de ideas y aunque me voy contento con mi desempeño con la funcionalidad de la pagina ,no me voy conforme con los estetico
+* <p>Repetir nombre de classnames</p>Al ir avanzando en el codigo me pasaba que no me respetaban a veces el css y era porque se repetia el nombre de alguna variable que se me ha pasado,tuve que revisar todo el codigo y ponerle a todo classnames mas especificos
 
 
 </br>

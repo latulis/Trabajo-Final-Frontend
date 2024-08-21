@@ -215,7 +215,7 @@ textarea.inputChat::placeholder{
 }
 
 
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 668px), screen and (max-height: 600px) {
     .chatEntero{
         width: 100%;
         margin-left: 0;

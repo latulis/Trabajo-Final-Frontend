@@ -5,7 +5,7 @@
     height: 100vh;
 }
 
-.reviewCreate {
+.reviewCreatePage {
     background-color: rgb(19, 85, 85);
     align-self: center;
     width: 75%;
@@ -15,43 +15,44 @@
     border: 1px solid black;
     border-radius: 10px;
     overflow: hidden;
-    overflow-y: auto;
 }
 
 .headerReviewCreate {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    flex-direction: row;
     padding: 5px;
     width: 100%;
     height: 10%;
-    background-color: rgb(19, 85, 85);
-    position: relative;
-}
+    align-items: center;
+    background-color: rgb(19, 85, 85);}
 
 .headerReviewCreate .headerTitle{
+    width: 100%;
     color: aliceblue;
     text-align: center;
     font-size: 50px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 1; 
 }
 
 
 .headerReviewCreate .atrasChat{
-    font-size: 30px;
-    color: black;
-    position: absolute;
-    left: 10px; 
+    text-decoration: none;
+    width: 10%;
+    background-color: transparent;
+    border: none;
+    font-size: 34px; 
+    color: black; 
+    margin-left: 1px;
+    align-self: center;
 }
 
 
 .formReview {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
     width: 100%;
+    height: 90%;
+    overflow-y: auto;
+    margin-top: 27px;
 
 }
 
@@ -91,9 +92,9 @@
 
 
 
-@media screen and (max-width: 568px), screen and (max-height: 568px) {
+@media screen and (max-width: 568px), screen and (max-height: 600px) {
 
-    .reviewCreate {
+    .reviewCreatePage {
         width: 100%;
     }
 

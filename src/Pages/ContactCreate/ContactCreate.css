@@ -12,10 +12,7 @@
     align-items: center; 
     height: 100vh; }
 
-
-
-.contactCreateForm{
-    background-color: rgb(19, 85, 85);
+.contactCreatePage{
     align-self: center;
     width: 75%;
     height: 100vh;
@@ -24,27 +21,42 @@
     border: 1px solid black;
     border-radius: 10px;
     overflow: hidden;
+    background-color: rgb(19, 85, 85);
+
+}
+
+
+
+.contactCreateForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
     overflow-y: auto;
+    
 }
 
 .headerCreate{
-    justify-content: space-between;
-    height: 10%;
     display: flex;
     flex-direction: row;
+    padding: 5px;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    background-color: rgb(19, 85, 85);
 }
 .headerCreate .atrasChat {
     text-decoration: none;
     width: 10%;
     background-color: transparent;
     border: none;
-    font-size: 32px; 
+    font-size: 34px; 
     color: black; 
     margin-left: 1px;
     align-self: center;
 }
 
-.contactCreateForm h1{
+.headerTitle{
     width: 100%;
     color: aliceblue;
     text-align: center;
@@ -55,6 +67,7 @@
     color: aliceblue;
     font-size: 27px;
     margin: 10px;
+    align-self: start;
 }
 
 .contactCreateForm input{
@@ -84,7 +97,7 @@
 
 @media screen and (max-width: 680px) , screen and (max-height: 600px) {
 
-    .contactCreateForm{
+    .contactCreatePage{
         border-radius: none;
         width: 100%;}
     

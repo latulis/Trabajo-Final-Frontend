@@ -91,7 +91,7 @@
     font-size: 20px;
 }
 
-@media screen and (max-width: 680px) , screen and (max-height: 550px) {
+@media screen and (max-width: 680px) , screen and (max-height: 600px) {
 
     .editContact{
         width: 100%;
