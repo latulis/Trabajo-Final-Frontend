@@ -29,7 +29,7 @@ cellphone : '3515647459',
                 nombre: 'Spidy',
                 id: 2,
                 descripcion: 'Spiderman es mejor que todos',
-                thumbnail: 'https://www.videozas.com/media_gratis/og_modelos/spiderman_04.jpg',
+                thumbnail: 'https://i.pinimg.com/736x/ba/75/8e/ba758e7f4db9405430e6ff651622a03d.jpg',
                 ultima_conexion: 'ayer',
 cellphone : '3515647459',
                 mensajes:[
@@ -81,5 +81,113 @@ cellphone : '3515647459',
                     
                 }
             ] 
+ },
+
+ {
+    nombre: 'Wolverine',
+    id: 54,
+    descripcion: 'Que onda contigo papi',
+    thumbnail: 'https://img.asmedia.epimg.net/resizer/v2/YF56LVNH25HI3BFPEKA5KLBG7A.jpg?auth=b68b08b435cb8d15279865a3837406222077dcf38e7201abe89c7b1f3fd11c6e&width=1472&height=1104&smart=true',
+    ultima_conexion: 'ayer',
+cellphone : '3515647459',
+    mensajes:[
+                {
+                    author: 'Tu',
+                    text: 'Hola Wolvie, como estuvo tu viaje con Deadpool',
+                    estado: 'visto',
+                    day: 'ayer',
+                    hour: '13:15',
+                    
+                },
+                
+                {
+                    author: 'Otro',
+                    text: 'Nunca tuve un viaje tan horrible y decepcionante como este',
+                    estado: 'visto',
+                    day: 'ayer',
+                    hour: '13:15',
+                    
+                },
+                {
+                    author: 'Otro',
+                    text: 'He tenido malos dias pero nada tan malo como pasar tiempo con Deadpool',
+                    estado: 'visto',
+                    day: 'ayer',
+                    hour: '13:15',
+                }
+                
+            ] 
  }
+,
+ {
+    nombre: 'Obi wan',
+    id: 5,
+    thumbnail: 'https://static.wikia.nocookie.net/dominios-encantados/images/4/4e/Obi_Wan_8.png/revision/latest?cb=20150531162316&path-prefix=es',
+    descripcion: 'EL jedi que ha vencido a mas Siths',
+cellphone : '3515647459',
+    mensajes:[
+                {
+                    author: 'Otro',
+                    text: 'Como te va jedi, estas listo para empezar una mision en busca de Darth Maul',
+                    estado: 'visto',
+                    day: 'ayer',
+                    hour: '13:15',
+                    
+                },
+                {
+                    author: 'Tu',
+                    text: 'No era que ya lo habias matado cortandolo a la mitad??',
+                    estado: 'visto',
+                    day: 'ayer',
+                    hour: '13:15',
+                    
+                },
+                {
+                    author: 'Otro',
+                    text: 'Si , yo tambien crei lo mismo pero es mas dificil de matar de lo que parece el cornudo ese',
+                    estado: 'visto',
+                    day: 'ayer',
+                    hour: '13:15',
+                }
+            ] 
+ }
+,
+ {
+    nombre: 'Angelina',
+    id: 7,
+    thumbnail: 'https://qph.cf2.quoracdn.net/main-qimg-3a85aa2cce33c5cee3d3073aac4037b1-lq',
+    descripcion: 'Solterona',
+cellphone : '3515647459',
+    mensajes:[
+               
+                {
+                    author: 'Tu',
+                    text: 'Hola Angelinaaaa,soy tu mayor fan,me encanto tu papel en tomb raider',
+                    estado: 'visto',
+                    day: 'ayer',
+                    hour: '13:15',
+                    
+                },
+                {
+                    author: 'Otro',
+                    text: 'Disculpa,no te conozco',
+                    estado: 'visto',
+                    day: 'ayer',
+                    hour: '13:15',
+                },
+                {
+                    author: 'Otro',
+                    text: 'Como conseguiste mi numero?',
+                    estado: 'visto',
+                    day: 'ayer',
+                    hour: '13:15',
+                }
+            ] 
+            
+ }
+
+ 
+
+
+ 
  ]
